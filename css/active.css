@@ -1,0 +1,25 @@
+header.active {
+    border-bottom: 1px solid #fff;
+}
+/* 모바일 햄버거 메뉴 애니메이션 */
+.mo-open_btn.active span:nth-child(1) {
+    transform: rotate(45deg);
+    top: calc(0.6em - 1px);
+}
+.mo-open_btn.active span:nth-child(2) {
+    opacity: 0;
+}
+.mo-open_btn.active span:nth-child(3) {
+    transform: rotate(-45deg);
+    top: calc(0.6em - 1px);
+}
+header.slide nav {
+    /* height: 152px; */
+    top: calc(4em - 1px);
+    opacity: 1;
+    /* z-index: 1; */
+}
+.move-div.active {
+    transform: translateY(0);
+    opacity: 1;
+}
